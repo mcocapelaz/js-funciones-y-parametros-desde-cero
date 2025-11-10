@@ -6,7 +6,6 @@
 
 // VARIABLES
 
-
 // FUNCIONES
 
 function writeThis(word, number) {
@@ -15,9 +14,13 @@ function writeThis(word, number) {
   }
 }
 
-writeThis("Patata", 10);
-writeThis("Aguacate", 7);
-writeThis("Pizza", 50);
+function getRandomNumber(max) {
+  return Math.ceil(Math.random() * max);
+}
+
+writeThis("Patata", getRandomNumber(10));
+writeThis("Aguacate", getRandomNumber(10));
+writeThis("Pizza", getRandomNumber(10));
 
 // EVENTOS
 
