@@ -6,17 +6,18 @@
 
 // VARIABLES
 
+
 // FUNCIONES
 
-function ten(word) {
-  for (let i = 0; i < 3; i++) {
+function writeThis(word, number) {
+  for (let i = 0; i < number; i++) {
     console.log(word);
   }
 }
 
-ten("Patata");
-ten("Aguacate");
-ten("Pizza");
+writeThis("Patata", 10);
+writeThis("Aguacate", 7);
+writeThis("Pizza", 50);
 
 // EVENTOS
 
