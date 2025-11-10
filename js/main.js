@@ -1,40 +1,23 @@
 "use strict";
 
-// QUERY SELECTOR 
+// QUERY SELECTOR
 
+// DATOS
 
+// VARIABLES
 
-// DATOS 
-
-
-
-
-
-// VARIABLES 
-
-
-
-// FUNCIONES 
+// FUNCIONES
 
 function ten(word) {
-for (let i=0; i<3; i++) {
+  for (let i = 0; i < 3; i++) {
     console.log(word);
-       
+  }
 }
-}
 
-ten('Patata')
-ten('Aguacate')
-ten('Pizza')
+ten("Patata");
+ten("Aguacate");
+ten("Pizza");
 
+// EVENTOS
 
-
-
-// EVENTOS 
-
-
-//CÓDIGO AL CARGAR LA PÁGINA 
-
-
-
-
+//CÓDIGO AL CARGAR LA PÁGINA
